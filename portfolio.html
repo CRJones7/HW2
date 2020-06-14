@@ -7,32 +7,35 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <title>Courtney J. </title>
 </head>
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
-        <!-- Navbar title -->
-        <h1>Courtney Jones</h1>
-
-        <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="basicExampleNav">
-
-            <!-- Links -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Courtney</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact<span class="sr-only"></span></a>
+            </li>
+          </ul>
+    
+        </div>
+      </nav>
             <!-- Links End -->
 
         </div>
@@ -42,7 +45,7 @@
 
     <div class="container">
         <div class="row"><br>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="card card-header">
                     <h1>Portfolio</h1>
                 </div>
@@ -118,11 +121,9 @@
         </div>
     </div>
     <!--Footer-->
-    <footer id="sticky-footer" class="navbar-light bg-success">
-        <div class="container text-center">
-            <small>Copyright &copy; Your Website</small>
-        </div>
-    </footer>
+    <nav class="navbar fixed-bottom navbar-dark bg-dark" style="text-align: center;">
+        <a class="navbar-brand" href="#">Navbar</a>
+      </nav>
     <!--Footer End-->
 </body>
 
