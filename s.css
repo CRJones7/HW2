@@ -1,0 +1,38 @@
+
+p {
+    text-align: justify;
+}
+
+@media screen (min-width: 640px) {
+    .image-box {
+        width: 100%
+    }
+}
+
+@media screen (min-width: 768px) {
+    .img-responsive {
+        height: 200;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        }
+
+    .image-box {
+            margin-bottom: 30px;
+
+        }
+        
+    }
+
+@media screen (min-width: 980) {
+
+    .img-responsive {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        }
+    
+}
+
+    .text-wrap {
+        word-wrap:break-word;
+    }
+}
